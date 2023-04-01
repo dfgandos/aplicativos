@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">arquivoTexto</string>
+    <string name="bloco_de_notas">Bloco de Notas</string>
+    <string name="azul">Azul</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="salvar">Salvar</string>
+</resources>

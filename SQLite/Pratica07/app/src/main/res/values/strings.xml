@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pratica06</string>
+    <string name="tab_text_1">Cadastrar</string>
+    <string name="tab_text_2">Listar</string>
+    <string name="tab_text_3">Atualizar</string>
+    <string name="nome">Nome</string>
+    <string name="e_mail">e-mail</string>
+    <string name="salvar">SALVAR</string>
+    <string name="atualizar">ATUALIZAR</string>
+    <string name="identificador">Identificador</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="deletar">DELETAR</string>
+    <string name="telefone">Telefone</string>
+    <string name="endere_o">Endereço</string>
+</resources>

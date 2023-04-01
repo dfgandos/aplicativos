@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "150706556390",
+    "firebase_url": "https://web-service-5a0fc.firebaseio.com",
+    "project_id": "web-service-5a0fc",
+    "storage_bucket": "web-service-5a0fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150706556390:android:beac0af363fbcae0405a27",
+        "android_client_info": {
+          "package_name": "natalia.webservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150706556390-tdjjikpqch7k0k8b5oldae64r3jemrb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "natalia.webservice",
+            "certificate_hash": "538856435178ee5a95aef04f89e4ffd9e9c022f9"
+          }
+        },
+        {
+          "client_id": "150706556390-v227hct6pg1b9ufd0qtlh1uld3onufme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0VWjtCQ1p28H9g7KmqMtSieu2ivI9sEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150706556390-v227hct6pg1b9ufd0qtlh1uld3onufme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

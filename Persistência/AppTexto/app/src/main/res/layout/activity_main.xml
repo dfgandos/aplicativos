@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bloco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bloco_de_notas"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"/>
+
+    <EditText
+        android:id="@+id/multiline_texto_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:paddingLeft="45dp"
+        android:paddingTop="35dp"
+        android:layout_below="@id/bloco" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_id"
+        android:layout_width="192dp"
+        android:layout_height="86dp"
+        android:layout_below="@id/multiline_texto_id"
+        android:layout_toEndOf="@id/button_salvar_id"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_azul_id"
+            android:layout_width="match_parent"
+            android:textColor="@color/azul"
+            android:layout_height="wrap_content"
+            android:text="@string/azul" />
+
+        <RadioButton
+            android:id="@+id/radioButton_vermelho_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vermelho"
+            android:text="@string/vermelho" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_salvar_id"
+        android:layout_width="106dp"
+        android:layout_height="59dp"
+        android:text="@string/salvar"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/multiline_texto_id" />
+
+</RelativeLayout>
